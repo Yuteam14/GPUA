@@ -81,6 +81,23 @@ By default, the code runs in the **16-shot** setting (`DATA.N_SHOT=16`).
 - `DATA.N_SHOT=1, 4, 8, ...`: evaluate the corresponding few-shot setting.
 - `DATA.N_SHOT=16`: the default setting used in our experiments.
 
+Run the following command to extract features for all datasets at once.  
+If the dataset paths are already set correctly, this command will process all datasets sequentially:
+
+```bash
+python main.py \
+  --multi-dataset \
+  --model-type dinov2 \
+  --use-template \
+  --five-crop \
+  --save-path saved_features \
+  --config config_files/cfg_image.yaml \
+  DATA.DATA_PATH /data/users/ysw/Data \
+  DATA.N_SHOT 16 \
+  MODEL.VIZ_BACKBONE ViT-B/16 \
+  RNG_SEED 1
+
+
 ### Open-Vocabulary Semantic Segmentation Setting
 
 Our method can be naturally extended to the open-vocabulary semantic segmentation setting by replacing image-level features with dense patch-level features extracted from the visual encoder.
