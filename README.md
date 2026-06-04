@@ -42,8 +42,21 @@ pip install -r requirements.txt
 For image datasets, please follow the instruction of CoOp here: [DATASETS.md](https://github.com/KaiyangZhou/CoOp/blob/main/DATASETS.md)
 
 ## 🚀 Run GPUA
-You can easily reproduce the experimental results using the provided bash scripts:
+### Zero-Shot Classification Setting
+
+Run the following script to reproduce the zero-shot classification results:
 ```
+NitersCaltech101=1000
+NitersDescribableTextures=1000
+NitersEuroSAT=100
+NitersFood101=200
+NitersFGVCAircraft=1000
+NitersOxfordFlowers=100
+NitersOxfordPets=100
+NitersStanfordCars=1000
+NitersSUN397=100
+NitersImageUCF101=200
+NitersImageNet=200
 FEATURES_PATH="saved_features"
 DATASET_PATH=""
 DATASET_NAME="ImageUCF101"
