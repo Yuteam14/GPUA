@@ -27,7 +27,8 @@
 </div>
 
 ## 🛠️ Setup
-
+This repo is built on top of **DINOv2, DINOv3, and CLIP**.  
+To run GPUA, please install the following packages in your PyTorch environment:
 ```
 # create conda env
 conda create -y --name GPUA python=3.10.0
