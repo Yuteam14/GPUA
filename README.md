@@ -54,6 +54,9 @@ python main.py --model-type dinov2 --use-template \
     RNG_SEED 1 MODEL.VIZ_BACKBONE ViT-B/16 \
     DATA.DATASET_NAME $DATASET_NAME DATA.DATA_PATH $DATASET_PATH DATA.N_SHOT 16
 ```
-
+First, set DATASET_PATH to the correct path of the folder containing all the image datasets, then run the command above.
+The example command is configured for ImageNet. To evaluate on a different dataset, simply change DATA.DATASET_NAME. To reproduce the exact results reported in the paper, make sure to also update --n-iters to the value corresponding to the selected dataset.
+You can change MODEL.VIZ_BACKBONE to use a different visual backbone (currently ViT-B/16 is provided), and modify DATA.N_SHOT to control the number of support examples per class.
+By default, the code runs in the 16-shot setting (DATA.N_SHOT=16). Setting DATA.N_SHOT=0 uses all available training samples for each class, while any other positive integer can be specified to evaluate the corresponding few-shot setting (e.g., 1-shot, 4-shot, 8-shot, etc.).
 
 
