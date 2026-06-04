@@ -82,7 +82,7 @@ By default, the code runs in the **16-shot** setting (`DATA.N_SHOT=16`).
 - `DATA.N_SHOT=1, 4, 8, ...`: evaluate the corresponding few-shot setting.
 - `DATA.N_SHOT=16`: the default setting used in our experiments.
 
-**If all dataset paths are configured correctly, you can run the following command to process all datasets at once.**
+If all dataset paths are configured correctly, you can run the following command to process all datasets at once.
 
 ```bash
 python main.py \
