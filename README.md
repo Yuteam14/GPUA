@@ -85,6 +85,6 @@ By default, the code runs in the **16-shot** setting (`DATA.N_SHOT=16`).
 
 Our method can be naturally extended to the open-vocabulary semantic segmentation setting by replacing image-level features with dense patch-level features extracted from the visual encoder.
 
-The implementation follows the general architectures adopted by [SCLIP](https://github.com/wangf3014/SCLIP), [MaskCLIP](https://github.com/chongzhou96/MaskCLIP), and [MaskCLIP+](https://github.com/hvision-nku/maskclippp). Specifically, we keep the original zero-shot classification pipeline unchanged and simply replace the input image-level features with the corresponding patch-level features.
+The implementation follows the general architectures adopted by [SCLIP](https://github.com/wangf3014/SCLIP), [MaskCLIP](https://github.com/chongzhou96/MaskCLIP), and [SC-CLIP](https://github.com/SuleBai/SC-CLIP). Specifically, we keep the original zero-shot classification pipeline unchanged and simply replace the input image-level features with the corresponding patch-level features.
 
 After applying GPUA to obtain aligned patch representations, the aligned features directly replace the original CLIP patch embeddings and can be plugged into existing open-vocabulary semantic segmentation frameworks without any additional architectural modifications or retraining. In this way, GPUA serves as a lightweight feature alignment module that is fully compatible with existing methods such as SCLIP, MaskCLIP, and MaskCLIP+.
