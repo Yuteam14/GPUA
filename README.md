@@ -92,7 +92,7 @@ python main.py \
   --five-crop \
   --save-path saved_features \
   --config config_files/cfg_image.yaml \
-  DATA.DATA_PATH /data/users/ysw/Data \
+  DATA.DATA_PATH /data/ \
   DATA.N_SHOT 16 \
   MODEL.VIZ_BACKBONE ViT-B/16 \
   RNG_SEED 1
