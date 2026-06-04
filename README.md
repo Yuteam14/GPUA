@@ -72,7 +72,7 @@ First, set `DATASET_PATH` to the correct path of the folder containing all the i
 
 - The example command is configured for `ImageNet`. To evaluate on a different dataset, simply change `DATA.DATASET_NAME`.
 - To reproduce the exact results reported in the paper, make sure to also update `--n-iters` to the value corresponding to the selected dataset.
-- You can change `MODEL.VIZ_BACKBONE` to use a different visual backbone (currently `ViT-B/16` is provided).
+- You can change `--model-type` to use a different foundation model (currently `dinov2` is provided).
 - Modify `DATA.N_SHOT` to control the number of support examples per class.
 
 By default, the code runs in the **16-shot** setting (`DATA.N_SHOT=16`).
