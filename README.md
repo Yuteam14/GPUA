@@ -23,7 +23,12 @@
   <a href="https://akang-wang.github.io/PIAA/"><img src="https://img.shields.io/badge/Project-Homepage-blue.svg" alt="Project Homepage"></a>
   <a href="https://openreview.net/forum?id=sKOTyhXscD&noteId=yDs8dnAwWB"><img src="https://img.shields.io/badge/OpenReview-View-f7b500.svg" alt="OpenReview"></a>
 
+</div>
 
+<br>
+<br> <div align="center">
+  <img src="https://akang-wang.github.io/PIAA/main.png" alt="PIAA Architecture" width="90%">
+</div>
 
 ## 🛠️ Setup
 
