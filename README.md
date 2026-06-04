@@ -41,3 +41,19 @@ pip install -r requirements.txt
 ## 📂 Dataset Preparation
 For image datasets, please follow the instruction of CoOp here: [DATASETS.md](https://github.com/KaiyangZhou/CoOp/blob/main/DATASETS.md)
 
+## 🚀 Run PIAA
+You can easily reproduce the experimental results using the provided bash scripts:
+```
+FEATURES_PATH="saved_features"
+DATASET_PATH=""
+DATASET_NAME="ImageUCF101"
+
+python main.py --model-type dinov2 --use-template \
+    --save-path $FEATURES_PATH --n-iters 200 \
+    --config config_files/cfg_image.yaml \
+    RNG_SEED 1 MODEL.VIZ_BACKBONE ViT-B/16 \
+    DATA.DATASET_NAME $DATASET_NAME DATA.DATA_PATH $DATASET_PATH DATA.N_SHOT 16
+```
+
+
+
