@@ -41,7 +41,7 @@ pip install -r requirements.txt
 ## 📂 Dataset Preparation
 For image datasets, please follow the instruction of CoOp here: [DATASETS.md](https://github.com/KaiyangZhou/CoOp/blob/main/DATASETS.md)
 
-## 🚀 Run PIAA
+## 🚀 Run GPUA
 You can easily reproduce the experimental results using the provided bash scripts:
 ```
 FEATURES_PATH="saved_features"
