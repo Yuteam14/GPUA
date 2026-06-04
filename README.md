@@ -40,7 +40,7 @@ pip install -r requirements.txt
 ```
 
 ## 📂 Dataset Preparation
-For image datasets, please follow the instruction of CoOp here: [DATASETS.md](https://github.com/KaiyangZhou/CoOp/blob/main/DATASETS.md)
+For image datasets, please follow the instruction of CoOp here: [DATASETS.md](https://github.com/KaiyangZhou/CoOp/blob/main/DATASETS.md).
 
 ## 🚀 Run GPUA
 ### Zero-Shot Classification Setting
