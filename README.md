@@ -81,8 +81,7 @@ By default, the code runs in the **16-shot** setting (`DATA.N_SHOT=16`).
 - `DATA.N_SHOT=1, 4, 8, ...`: evaluate the corresponding few-shot setting.
 - `DATA.N_SHOT=16`: the default setting used in our experiments.
 
-Run the following command to extract features for all datasets at once.  
-If the dataset paths are already set correctly, this command will process all datasets sequentially:
+**If all dataset paths are configured correctly, you can run the following command to process all datasets at once.**
 
 ```bash
 python main.py \
