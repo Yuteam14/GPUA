@@ -1,6 +1,6 @@
 <div align="center">
 
-<h1>[CLS] is Not Enough:<br>Multi-Label Recognition via Patch-Level Inference and Adaptive Aggregation</h1>
+<h1>Geometry-Preserving Unsupervised Alignment for Heterogeneous Foundation Models</h1>
 
 <div>
     <a target='_blank'>Akang Wang<sup>1</sup></a>&emsp;
