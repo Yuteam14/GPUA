@@ -269,8 +269,8 @@ if __name__ == "__main__":
 
 
 
-    DEFAULT_DATA_PATH = "/data/users/ysw/Data"
-    IMAGENET_DATA_PATH = "/data/public"
+    DEFAULT_DATA_PATH = "/data/"
+    IMAGENET_DATA_PATH = "/data/"
 
     def update_opts(opts, key, value):
         new_opts, skip = [], False
