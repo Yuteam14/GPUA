@@ -30,11 +30,11 @@
 
 ```
 # create conda env
-conda create -y --name PIAA python=3.10.0
-conda activate PIAA
+conda create -y --name GPUA python=3.10.0
+conda activate GPUA
 
 # install packages
-pip install torch==2.7.1 torchvision==0.22.1 torchaudio==2.7.1 --index-url https://download.pytorch.org/whl/cu118
+pip install torch==2.6.0+cu118 torchvision==0.21.0+cu118 torchaudio==2.6.0+cu118 --index-url https://download.pytorch.org/whl/cu118
 pip install -r requirements.txt
 ```
 
