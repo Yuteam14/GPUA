@@ -3,8 +3,7 @@
 <h1>Geometry-Preserving Unsupervised Alignment for Heterogeneous Foundation Models</h1>
 
 <div>
-    <a target='_blank'>Akang Wang<sup>1</sup></a>&emsp;
-    <a target='_blank'>Xili Deng<sup>1</sup></a>&emsp;
+    <a target='_blank'>Shuwen Yu<sup>1</sup></a>&emsp;
     <a target='_blank'>Zhanxuan Hu<sup>1, ✉</sup></a>&emsp;
     <a target='_blank'>Yi Zhao<sup>1</sup></a>&emsp;
     <a target='_blank'>Yonghang Tai<sup>1</sup></a>&emsp;  
