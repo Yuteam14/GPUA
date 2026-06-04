@@ -18,8 +18,8 @@
 </div>
 
 <div align="center">
-  <a target="_blank" href="https://arxiv.org/abs/2605.25821"><img src="https://img.shields.io/badge/arXiv-2605.25821-b31b1b.svg" alt="arXiv Paper"/></a>
-  <a href="https://akang-wang.github.io/PIAA/"><img src="https://img.shields.io/badge/Project-Homepage-blue.svg" alt="Project Homepage"></a>
+  <a target="_blank" href="https://arxiv.org/pdf/2606.04385"><img src="https://img.shields.io/badge/arXiv-2605.25821-b31b1b.svg" alt="arXiv Paper"/></a>
+  <a href="https://github.com/Yuteam14/GPUA/"><img src="https://img.shields.io/badge/Project-Homepage-blue.svg" alt="Project Homepage"></a>
 
 </div>
 
