@@ -39,29 +39,5 @@ pip install -r requirements.txt
 ```
 
 ## 📂 Dataset Preparation
-Download each dataset from the official website ([PASCAL VOC 2007](http://host.robots.ox.ac.uk/pascal/VOC/voc2007/), [PASCAL VOC 2012](http://host.robots.ox.ac.uk/pascal/VOC/voc2012/), [COCO 2014](https://cocodataset.org/#download), [NUS-WIDE](https://github.com/NExTplusplus/NUS-WIDE)) and put them under local directory like `/PIAA` .
-The structure of the dataset directory should be organized exactly as follows:
-```
-PIAA/
-├── data/                               
-│   ├── pascal/
-│   │   └── VOCdevkit/
-│   │       ├── VOC2007/
-│   │       │   └── JPEGImages/         
-│   │       └── VOC2012/
-│   │           └── JPEGImages/         
-│   │
-│   ├── coco/
-│   │   ├── train2014/                  
-│   │   └── val2014/                    
-│   │
-│   └── nuswide/
-│       └── Flickr/
-│           ├── actor/
-│           └── administrative_assistant/
-│
-├── learn.py
-├── test.py
-└── ...                   
-```
+For image datasets, please follow the instruction of CoOp here: [DATASETS.md](https://github.com/KaiyangZhou/CoOp/blob/main/DATASETS.md)
 
