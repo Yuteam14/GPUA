@@ -25,10 +25,7 @@
 
 </div>
 
-<br>
-<br> <div align="center">
-  <img src="https://akang-wang.github.io/PIAA/main.png" alt="PIAA Architecture" width="90%">
-</div>
+
 </div>
 ## 🛠️ Setup
 
