@@ -96,7 +96,7 @@ python main.py \
   DATA.N_SHOT 16 \
   MODEL.VIZ_BACKBONE ViT-B/16 \
   RNG_SEED 1
-
+```
 
 ### Open-Vocabulary Semantic Segmentation Setting
 
