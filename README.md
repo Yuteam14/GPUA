@@ -40,8 +40,8 @@ pip install -r requirements.txt
 ```
 
 ## 📂 Dataset Preparation
-For image datasets, please follow the instruction of CoOp here: [DATASETS.md](https://github.com/KaiyangZhou/CoOp/blob/main/DATASETS.md).
-
+For the zero-shot classification datasets, please follow the instructions provided in CoOp: [DATASETS.md](https://github.com/KaiyangZhou/CoOp/blob/main/DATASETS.md).
+For open-vocabulary semantic segmentation, please prepare the datasets following the [MMSeg data preparation instructions](https://github.com/open-mmlab/mmsegmentation/blob/main/docs/en/user_guides/2_dataset_prepare.md).
 ## 🚀 Run GPUA
 ### Zero-Shot Classification Setting
 
