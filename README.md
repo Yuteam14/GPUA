@@ -57,6 +57,7 @@ NitersStanfordCars=1000
 NitersSUN397=100
 NitersImageUCF101=200
 NitersImageNet=200
+
 FEATURES_PATH="saved_features"
 DATASET_PATH=""
 DATASET_NAME="ImageUCF101"
@@ -80,3 +81,4 @@ By default, the code runs in the **16-shot** setting (`DATA.N_SHOT=16`).
 - `DATA.N_SHOT=1, 4, 8, ...`: evaluate the corresponding few-shot setting.
 - `DATA.N_SHOT=16`: the default setting used in our experiments.
 
+### Open-Vocabulary Semantic Segmentation Setting
