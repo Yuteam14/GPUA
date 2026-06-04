@@ -29,7 +29,7 @@
 <br> <div align="center">
   <img src="https://akang-wang.github.io/PIAA/main.png" alt="PIAA Architecture" width="90%">
 </div>
-
+</div>
 ## 🛠️ Setup
 
 ```
@@ -69,35 +69,3 @@ PIAA/
 └── ...                   
 ```
 
-## 🚀 Run PIAA
-You can easily reproduce the experimental results using the provided bash scripts:
-```
-bash piaa.sh     # Run SC-CLIP + PIAA only
-bash all.sh      # Run SCLIP+PIAA, ITACLIP+PIAA, and SC-CLIP+PIAA
-```
-## 📊 Main Results
-Comparison of the PIAA improvement across different multi-label classification datasets:
-| Method       | VOC12 | VOC07 | COCO | NUS  |
-| ------------ | ----- | ----- | ---- | ---- |
-| SCLIP+PIAA   | 91.4  | 91.7  | 73.0 | 49.2 |
-| ITACLIP+PIAA | 92.2  | 92.3  | 74.6 | 49.1 |
-| SC-CLIP+PIAA | 92.2  | 92.5  | 73.2 | 50.6 |
-
-
-## 🙏 Acknowledgement
-This project is built upon the foundational work of [SCLIP](https://github.com/wangf3014/SCLIP), [ITACLIP](https://github.com/m-arda-aydn/ITACLIP), and [SC-CLIP](https://github.com/SuleBai/SC-CLIP). We sincerely thank the authors for open-sourcing their great repositories.
-
-
-## 🏷️ Citation
-If you find our work useful in your research, please consider giving a star ⭐ and citing the following paper 📝.
-```
-@misc{wang2026clsenoughmultilabelrecognition,
-      title={[CLS] is Not Enough: Multi-Label Recognition via Patch-Level Inference and Adaptive Aggregation}, 
-      author={Akang Wang and Xili Deng and Zhanxuan Hu and Yi Zhao and Yonghang Tai and Huafeng Li},
-      year={2026},
-      eprint={2605.25821},
-      archivePrefix={arXiv},
-      primaryClass={cs.CV},
-      url={https://arxiv.org/abs/2605.25821}, 
-}
-```
