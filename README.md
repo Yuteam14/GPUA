@@ -22,7 +22,7 @@
   <a target="_blank" href="https://arxiv.org/abs/2605.25821"><img src="https://img.shields.io/badge/arXiv-2605.25821-b31b1b.svg" alt="arXiv Paper"/></a>
   <a href="https://akang-wang.github.io/PIAA/"><img src="https://img.shields.io/badge/Project-Homepage-blue.svg" alt="Project Homepage"></a>
   <a href="https://openreview.net/forum?id=sKOTyhXscD&noteId=yDs8dnAwWB"><img src="https://img.shields.io/badge/OpenReview-View-f7b500.svg" alt="OpenReview"></a>
-</div> 
+
 
 
 ## 🛠️ Setup
