@@ -108,7 +108,7 @@ After applying GPUA to obtain aligned patch representations, the aligned feature
 
 ### Citation
 If you find this repository useful, please cite:
-```bash
+```
 @inproceedings{yu2026,
   title={Geometry-Preserving Unsupervised Alignment for Heterogeneous Foundation Models},
   author={Yu, Shuwen and Hu, Zhanxuan and Zhao, Yi and Tai, Yonghang and Li, Huafeng},
